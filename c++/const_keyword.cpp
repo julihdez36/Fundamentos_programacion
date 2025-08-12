@@ -1,9 +1,9 @@
 #include <iostream>
 
 int main(){
-    const double PI = 3.14159; // with constant we can't change the value
+    const double PI = 3.14159; // with constant we can't change the value, that is a keyword
     double radius = 10;
-    double circumference = 2 * pi * radius;
+    double circumference = 2 * PI * radius;
 
     std::cout << circumference << "cm";
     
